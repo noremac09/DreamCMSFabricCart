@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "dreamcmsfabriccart",
+  "version": "${version}",
+  "name": "DreamCMSFabricCart",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/noremac/DreamCMSFabricCart"
+  },
+  "license": "unlicense",
+  "icon": "assets/dreamcmsfabriccart/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "net.noremac.dreamcmsfabriccart.client.DreamCMSFabricCartClient"
+    ],
+    "main": [
+      "net.noremac.dreamcmsfabriccart.DreamCMSFabricCart"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
